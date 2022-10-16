@@ -6,6 +6,6 @@ int Multiply(int a, int b){
     return a*b;
 }
 int main(){
-    std::cout << Multiply(2,4) << std::endl;
-    std::cin.get();
+    Log("Hrllo");
+
 };
