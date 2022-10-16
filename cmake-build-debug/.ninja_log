@@ -1,3 +1,5 @@
 # ninja log v5
 0	214	6876492605793297	CMakeFiles/C_Learning.dir/main.cpp.obj	12bab7f821bf63ba
 219	304	6876492606719883	C_Learning.exe	71f2b2b9a70e74fb
+3	235	6876495120759408	CMakeFiles/C_Learning.dir/math.cpp.obj	84b3f2c25adb6059
+235	339	6876495121786108	C_Learning.exe	c3293d045760c16
