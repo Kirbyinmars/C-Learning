@@ -1,3 +1,4 @@
-//
-// Created by George Kirby on 16/10/2022.
-//
+#include <iostream>
+void Log(const char* message){
+    std::cout << message << std::endl;
+}
