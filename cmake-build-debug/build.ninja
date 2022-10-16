@@ -49,14 +49,14 @@ cmake_ninja_workdir = C$:/Users/George$ Kirby/Documents/GitHub/C-Learning/cmake-
 
 build cmake_object_order_depends_target_C_Learning: phony || CMakeFiles/C_Learning.dir
 
-build CMakeFiles/C_Learning.dir/main.cpp.obj: CXX_COMPILER__C_Learning_Debug C$:/Users/George$ Kirby/Documents/GitHub/C-Learning/main.cpp || cmake_object_order_depends_target_C_Learning
-  DEP_FILE = CMakeFiles\C_Learning.dir\main.cpp.obj.d
+build CMakeFiles/C_Learning.dir/math.cpp.obj: CXX_COMPILER__C_Learning_Debug C$:/Users/George$ Kirby/Documents/GitHub/C-Learning/math.cpp || cmake_object_order_depends_target_C_Learning
+  DEP_FILE = CMakeFiles\C_Learning.dir\math.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\C_Learning.dir
   OBJECT_FILE_DIR = CMakeFiles\C_Learning.dir
 
-build CMakeFiles/C_Learning.dir/math.cpp.obj: CXX_COMPILER__C_Learning_Debug C$:/Users/George$ Kirby/Documents/GitHub/C-Learning/math.cpp || cmake_object_order_depends_target_C_Learning
-  DEP_FILE = CMakeFiles\C_Learning.dir\math.cpp.obj.d
+build CMakeFiles/C_Learning.dir/main.cpp.obj: CXX_COMPILER__C_Learning_Debug C$:/Users/George$ Kirby/Documents/GitHub/C-Learning/main.cpp || cmake_object_order_depends_target_C_Learning
+  DEP_FILE = CMakeFiles\C_Learning.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\C_Learning.dir
   OBJECT_FILE_DIR = CMakeFiles\C_Learning.dir
@@ -69,7 +69,7 @@ build CMakeFiles/C_Learning.dir/math.cpp.obj: CXX_COMPILER__C_Learning_Debug C$:
 #############################################
 # Link the executable C_Learning.exe
 
-build C_Learning.exe: CXX_EXECUTABLE_LINKER__C_Learning_Debug CMakeFiles/C_Learning.dir/main.cpp.obj CMakeFiles/C_Learning.dir/math.cpp.obj
+build C_Learning.exe: CXX_EXECUTABLE_LINKER__C_Learning_Debug CMakeFiles/C_Learning.dir/math.cpp.obj CMakeFiles/C_Learning.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C_Learning.dir
